@@ -1,0 +1,14 @@
+The dataset consists of 22 news articles (10 in Chinese and 12 in English) associated with several comments issued by users.
+Each sub-folder includes:
+	datafile: news sentences and user comments, and each of them is assigned a unique ID
+	refalign: the reference alignment. Each line has two IDs separated by tab, with the former is for comment and the latter for news sentence.
+
+When you use the data sets for publications, please kindly cite the following paper.
+
+@inproceedings{hou:what,
+     author = "Lei Hou and Juanzi Li and Xiaoli Li and Jiangfeng Qu and Xiaofei Guo and Ou Hui and Jie Tang",
+     title = {What Users Care about: a Framework for Social Content Alignment},
+     booktitle = {International Joint Conference on Artificial Intelligence},
+	 pages = {1401-1407},
+     year = {2013},
+}
